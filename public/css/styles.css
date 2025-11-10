@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    height: 100vh;
+    margin: 0; 
+}
+#myVideo {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    z-index: -1
+}
+.video-con{
+    position: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* #myVideo {
+    position: fixed;
+    background-size: cover;
+  } */
+/* .container {
+    margin-right: 70px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(122, 120, 120);
+    text-align: center;
+} */
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:white;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #141;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: #ede8e8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+.register-container{
+    display: none;
+}
+
+.form-border{
+    display: flex;
+    justify-content: start;
+    border: 2px solid rgb(118, 117, 117);
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px); 
+    background: rgba(255, 255, 255, 0.1);
+}
+#para,#para a{
+    color: rgb(255, 251, 251);
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 50px;
+}
+
+/* Ensure the form is responsive */
+.container.form-border {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .container.form-border {
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+    }
+    .form-border{
+        display: flex;
+        justify-content: start;
+        border: 2px solid rgb(118, 117, 117);
+    }
+}
